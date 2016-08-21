@@ -67,5 +67,3 @@ if __name__ == "__main__":
 	
 	print("dst has shutdown.")
 	sys.exit(0)
-
-sys.exit(1)
