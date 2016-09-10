@@ -35,7 +35,7 @@ class Recorder:
 
 if __name__ == "__main__":
 	f = open("addresses.csv","a")
-	r = Recorder(["192.168.0.10","127.0.0.1","239.255.255.250"])
+	r = Recorder(["192.168.0.10","127.0.0.1","239.255.255.250",'127.0.1.1','151.101.33.105','208.67.220.123'])
 	while 1:
 		r.sniff(count=10)
 		while r.q.qsize() > 0:
